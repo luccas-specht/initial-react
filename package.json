@@ -1,0 +1,21 @@
+{
+  "// comment - 1": "this is the first think that we need to do to initialize any project javascript(node, react, react native, etc)",
+  "// comment - 2": "we need to do it before we start to write any code",
+  "// comment - 3": "i used: yarn init -y, because i prefer it",
+  "// comment - 4": "this file(package.json) contains the core information about the project(libs, frameworks, licenses, name, version, etc, all project's dependencies)",
+  "// comment - 5": "after we install react, it generated a folder called node_modules, and inside it we have all the dependencies",
+  "// comment - 6": "now, we installed react-dom, react-dom is a specific react dependency to web. It's like converted HTML in object syntax, so we can use it to render our react components",
+  "name": "initial-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "author": {
+    "name": "Luccas Specht",
+    "email": "luccasspecht70@gmail.com",
+    "url": "https://www.linkedin.com/in/luccas-specht/"
+  }
+}
