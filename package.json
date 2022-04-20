@@ -5,6 +5,10 @@
   "// comment - 4": "this file(package.json) contains the core information about the project(libs, frameworks, licenses, name, version, etc, all project's dependencies)",
   "// comment - 5": "after we install react, it generated a folder called node_modules, and inside it we have all the dependencies",
   "// comment - 6": "now, we installed react-dom, react-dom is a specific react dependency to web. It's like converted HTML in object syntax, so we can use it to render our react components",
+  "// comment - 7": "babel/core: main functionalities of babel, it converts jsx to js",
+  "// comment - 8": "babel/cli: you can open it and execute babel from commands on terminal",
+  "// comment - 9": "babel/preset-env: it converts js to es5, es6, es7, etc... it use the better syntax of the browser",
+  "// comment - 10": "babel/preset-react: this makes babel understands react",
   "name": "initial-react",
   "version": "1.0.0",
   "main": "index.js",
@@ -12,6 +16,12 @@
   "dependencies": {
     "react": "17.0.1",
     "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10"
   },
   "author": {
     "name": "Luccas Specht",
