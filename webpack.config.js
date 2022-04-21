@@ -8,6 +8,7 @@ it takes the code from the src folder and bundles it into a single file called b
 // entry: initial file to start bundling
 
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -19,6 +20,11 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx'],
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, 'public', 'index.html'),
+    }),
+  ],
   module: {
     rules: [
       {
