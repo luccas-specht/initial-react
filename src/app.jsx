@@ -18,8 +18,13 @@ import { Counter } from './components/Counter'
 
 /* 
 render => this component have showed up on the screen 
-
 */
+
+/* 
+  webpack dev server => reset all to initial state
+  fast refresh react => it can change the code, but it can't change the components state  
+  */
+
 
 export function App() {
   return (
