@@ -27,10 +27,5 @@ render => this component have showed up on the screen
 
 
 export function App() {
-  return (
-    <>
-    <RepositoryList/>
-    <Counter/>
-    </>
-  )
+  return <RepositoryList/>
 }
