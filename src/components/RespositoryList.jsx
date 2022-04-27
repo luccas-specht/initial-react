@@ -4,8 +4,6 @@ import { useState, useEffect} from 'react'
   Components in react are made up of a render function and a state object. It must return a html element. 
 */
 
-
-
 import { RepositoryItem } from './RepositoryItem'
 
 export function RepositoryList() {
