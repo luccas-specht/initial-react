@@ -1,8 +1,6 @@
-import './styles/global.scss'
+import './styles/global.scss';
 
-import { RepositoryList } from './components/RespositoryList'
-
-import { Counter } from './components/Counter'
+import { RepositoryList } from './components/RespositoryList';
 
 /* 
   React concepts: 
@@ -25,7 +23,6 @@ render => this component have showed up on the screen
   fast refresh react => it can change the code, but it can't change the components state  
   */
 
-
 export function App() {
-  return <RepositoryList/>
+  return <RepositoryList />;
 }
